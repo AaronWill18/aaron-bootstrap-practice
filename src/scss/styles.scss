@@ -10,3 +10,19 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Import partials here
+
+.jumbotron {
+    background: url(../img/pirate-ship.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 150px;
+}
+
+.nav-item a:hover{
+    text-decoration: underline;
+}
+
+.display-4, .h2{
+    font-family: 'Architects Daughter', cursive;
+}
